@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div>
+        <div className='h-20'>
          <div className="navbar bg-base-100">
            <div className="navbar-start">
 
@@ -14,16 +14,16 @@ const Header = () => {
                             </label>
 
                                 <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                                    <li><Link>Home</Link></li>
+                                    <li ><Link >Home</Link></li>
 
-                                    <li tabIndex={0}>
+                                    <li  tabIndex={0}>
                                     <Link className="justify-between">
                                         LogIn
                                     </Link>
                                     </li>
 
 
-                                    <li><Link>SignUp</Link></li>
+                                    <li className='text-lg'><Link>SignUp</Link></li>
                                 </ul>
                         </div>
 
@@ -32,15 +32,15 @@ const Header = () => {
             </div>
                 <div className="navbar-center hidden lg:flex">
                                 <ul className="menu menu-horizontal p-0">
-                                <li>
+                                <li className='font-semibold'>
                                     <Link>Home</Link>
                                 </li>
-                                <li tabIndex={0}>
+                                <li className='font-semibold' tabIndex={0}>
                                     <Link>
                                     LogIn
                                     </Link>
                                 </li>
-                                <li><Link>SignUp</Link></li>
+                                <li className='font-semibold'><Link>SignUp</Link></li>
                                 </ul>
                 </div>
 
