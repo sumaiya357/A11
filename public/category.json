@@ -1,25 +1,43 @@
 [
     {
       "id": "01",
-      "title": "Exclusive Pckage"
+      "title": "Exclusive Pckage",
+      "image":"https://i.pinimg.com/1200x/33/c0/7e/33c07eedfe6e1bb07ed2bc31f07ef1fe.jpg",
+      "Description": "This package has Pre Wedding shoot Engagement Wedding Walima. There will be 1 Senioe Photographer & 1 Senioe Cinematographer.The duration is 5Hours per event",
+      "price":"25,000 BDT"
     },
     {
       "id": "02",
-      "title": "Gold Pckage"
+      "title": "Gold Pckage",
+      "image":"https://amatya.co.uk/wp-content/uploads/2020/06/muslim-wedding-photographer-06.jpg",
+      
+      "Description": "This package has Engagement, Wedding, Walima. There will be 1 Associate Photographer.The duration is 4 Hours per event",
+      "price":"20,000 BDT"
     },
     {
       "id": "03",
-      "title": "OutDoor Pckage"
+      "title": "OutDoor Pckage",
+     
+      "image":" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRINfnlrdNrN6nKNSqgArmqri2nbSVQrgyucQ&usqp=CAU",
+      
+      "Description": "This package has Bridal, Pre Wedding shoot Engagement Wedding Walima. There will be 1  Photographer & 1  Cinematographer.The duration is 5Hours per event",
+      "price":"15,000 BDT"
     }
     ,
     {
       "id": "04",
-      "title": "Combo Pckage"
+      "title": "Combo Package",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfcdCW6Z64vG3tCJ7DmaGU91UlhPItUlwaQbDySWyeCGNtG-O_PyoHhJwIMLGqFP5w1tA&usqp=CAU",
+      "Description": "This package has Mehendi shoot, Pre Wedding shoot Engagement Wedding Walima. There will be 1  Photographer & 1  Cinematographer.The duration is 5Hours per event",
+      "price":"25,000 BDT"
     }
     ,
     {
       "id": "05",
-      "title": "Star Pckage"
+      "title": "Star Pckage",
+      "image":"https://images.squarespace-cdn.com/content/v1/5c2db4029772aebeba129860/1634110711556-ZLG2X9YJV03QONN1G86R/2cc9a9934f2f5db6a847e32d52b58d54-medium.jpg",
+      "Description": "This package has Pre Wedding shoot Engagement Wedding Walima. There will be 1 Senioe Photographer & 1 Senioe Cinematographer.The duration is 5Hours per event",
+      "price":"35,000 BDT"
     }
 
     

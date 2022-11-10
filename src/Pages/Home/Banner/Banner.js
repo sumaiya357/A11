@@ -17,7 +17,7 @@ const Banner = () => {
 
                         <div className="absolute flex justify-evenly 
                            transform -translate-y-1/2 left-20 top-1/2 ml-10 mt-5">
-                              <button className="btn btn-warning ">Warning</button>
+                              <button className="btn btn-warning text-white">Book Us Now</button>
                          </div>
 
                         <div className="absolute flex justify-evenly 
@@ -38,7 +38,7 @@ const Banner = () => {
 
                         <div className="absolute flex justify-evenly 
                            transform -translate-y-1/2 left-20 top-1/2 ml-10 mt-5">
-                              <button className="btn btn-warning ">Warning</button>
+                              <button className="btn btn-warning text-white">Book Us Now</button>
                          </div>
 
                         <div className="absolute flex justify-evenly 
@@ -59,7 +59,7 @@ const Banner = () => {
 
                         <div className="absolute flex justify-evenly 
                            transform -translate-y-1/2 left-20 top-1/2 ml-10 mt-5">
-                              <button className="btn btn-warning ">Warning</button>
+                              <button className="btn btn-warning text-white">Book Us Now</button>
                          </div>
 
                         <div className="absolute flex justify-evenly 

@@ -1,17 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import Category from './Category/Category';
 import Banner from './Banner/Banner';
+import Services from './Services/Services';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
     const [category, setCategory] = useState([]);
 
     useEffect(()=> {
-        fetch('category.json')
+        fetch('http://localhost:5000/category')
         .then(res => res.json())
         .then(data=> {
-            const mydata= data.slice(0,3);
-            setCategory(mydata)
+           
+            setCategory(data)
         })
     } ,[])
     return (
@@ -22,12 +24,15 @@ const Home = () => {
                 category.map(singleCategory =><Category key={singleCategory.id}
                 category={singleCategory}></Category>)
             }
-            <button className="btn glass text-black">See More</button>
+            <Link to='/category'><button className="btn glass text-black">See More</button></Link>
           </div>
                
             
-            <h2>Thi is home Pages</h2>
+           
+
             <Banner></Banner>
+
+            <Services></Services>
         </div>
     );
 };

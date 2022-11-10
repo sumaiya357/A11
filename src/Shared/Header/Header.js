@@ -25,6 +25,8 @@ const Header = () => {
 
 
                                     <li className='text-lg'><Link>SignUp</Link></li>
+
+                                   
                                 </ul>
                         </div>
 
@@ -43,6 +45,7 @@ const Header = () => {
                                     </Link>
                                 </li>
                                 <li className='font-semibold'><Link>SignUp</Link></li>
+                                <li className='text-lg'><Link>Blog</Link></li>
                                 </ul>
                 </div>
 
