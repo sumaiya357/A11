@@ -4,7 +4,7 @@ import img3 from '../../../Assets/slide/img-3.jpg'
 import img4 from '../../../Assets/slide/img-4.jpeg'
 const Banner = () => {
     return (
-      <div>
+      <div className='mt-5 pt-5'>
             <div className="carousel w-full mb-5 rounded-xl">
 
                  <div id="slide1" className=" rounded-xl carousel-item relative w-full pt-6">
