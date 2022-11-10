@@ -5,6 +5,7 @@ const Category = ({category}) => {
     return (
         <div  className=' flex flex-row text-sm'>
            <p className='ml-5'>{title}</p>
+         
            
          
         </div>

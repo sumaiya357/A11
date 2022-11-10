@@ -17,7 +17,7 @@ const ServiceDetails = ({service}) => {
 
             <div className="card-actions justify-between">
                 <span className='font-bold'>Price: {price}</span>
-            <Link to='/allcategory'><button className="btn btn-primary">See Details </button></Link>
+            <Link to={`/allcategory/${service._id}`}><button className="btn btn-primary">See Details </button></Link>
             </div>
   </div>
 </div>

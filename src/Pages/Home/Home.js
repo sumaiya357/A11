@@ -24,7 +24,7 @@ const Home = () => {
                 category.map(singleCategory =><Category key={singleCategory.id}
                 category={singleCategory}></Category>)
             }
-            <Link to='/category'><button className="btn glass text-black">See More</button></Link>
+            <Link ><button className="btn glass text-black">See More</button></Link>
           </div>
                
             
@@ -32,7 +32,10 @@ const Home = () => {
 
             <Banner></Banner>
 
-            <Services></Services>
+            {
+                category.map(singleCategory =><Services key={singleCategory.id}
+                category={singleCategory}></Services>)
+            }
         </div>
     );
 };

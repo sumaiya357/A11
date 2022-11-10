@@ -36,15 +36,15 @@ const Header = () => {
                 <div className="navbar-center hidden lg:flex">
                                 <ul className="menu menu-horizontal p-0">
                                 <li className='font-semibold'>
-                                    <Link>Home</Link>
+                                    <Link to={'/'}>Home</Link>
                                 </li>
                                
                                 <li className='font-semibold' tabIndex={0}>
-                                    <Link>
+                                    <Link to={'/login'}>
                                     LogIn
                                     </Link>
                                 </li>
-                                <li className='font-semibold'><Link>SignUp</Link></li>
+                                <li className='font-semibold'><Link to={'/signup'}>SignUp</Link></li>
                                 <li className='text-lg'><Link>Blog</Link></li>
                                 </ul>
                 </div>
