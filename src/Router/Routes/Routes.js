@@ -29,6 +29,12 @@ import SignUp from "../../Pages/SignUp/SignUp";
                
             }
             ,
+            {
+                path:'/login',
+                element:<Login></Login>
+               
+            }
+            ,
             
             {
                 path:'/signup',
@@ -36,12 +42,7 @@ import SignUp from "../../Pages/SignUp/SignUp";
                
             }
             ,
-            {
-                path:'/login',
-                element:<Login></Login>
-               
-            }
-            ,
+           
             {
                 path:'/blog',
                 element:<Blog></Blog>
