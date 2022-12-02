@@ -9,11 +9,12 @@ const ServiceDetails = ({service}) => {
                <figure><img src={image} alt="Shoes" /></figure>
                <div className="card-body">
                 <h2 className="card-title">{title}</h2>
-              {
-                Description.length>40?
-                <p>{Description.slice(0,40) + '...'}</p>
-                :<p>{Description}</p>
-              }
+                {Description?.length>40?
+                      <p>{Description.slice(0,40) + '...'}</p>
+                      :
+                      <p>{Description}</p>
+                }
+            
 
             <div className="card-actions justify-between">
                 <span className='font-bold'>Price: {price}</span>

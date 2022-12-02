@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../../layout/Main";
+import Blog from "../../Pages/Blog/Blog";
 import Home from "../../Pages/Home/Home";
 import Services from "../../Pages/Home/Services/Services";
 import SingleService from "../../Pages/Home/SingleService/SingleService";
@@ -17,15 +18,14 @@ import SignUp from "../../Pages/SignUp/SignUp";
             },
             {
                 path:'/category',
-                element:<Services></Services>,
-                loader:() =>{
-                    return fetch('https://my-server-site.vercel.app/allcategory')}
+                element:<Services></Services>
+                
             }
             ,
             {
                 path:'/allcategory/:id',
                 element:<SingleService></SingleService>,
-                loader:({params}) =>fetch(`https://my-server-site.vercel.app/allcategory/${params.id}`)
+                loader:({params}) =>fetch(`http://localhost:5000/allcategory/${params.id}`)
                
             }
             ,
@@ -38,6 +38,12 @@ import SignUp from "../../Pages/SignUp/SignUp";
             {
                 path:'/signup',
                 element:<SignUp></SignUp>
+               
+            }
+            ,
+            {
+                path:'/blog',
+                element:<Blog></Blog>
                
             }
         ]
