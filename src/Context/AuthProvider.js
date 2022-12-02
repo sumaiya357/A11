@@ -25,8 +25,12 @@ const auth = getAuth(app);
        
         return signInWithPopup(auth, provider);
     }
+    const logout =() => {
+       
+        return signOut(auth);
+     }
 
-    const authInfo ={createUser,signIn,providerLogin}
+    const authInfo ={createUser,signIn,providerLogin,logout}
 
     return (
         <div>
