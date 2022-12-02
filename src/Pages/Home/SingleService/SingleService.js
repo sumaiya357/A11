@@ -4,16 +4,7 @@ import { useLoaderData } from 'react-router-dom';
 const SingleService = () => {
     const service = useLoaderData();
     console.log(service)
-    // const [services, setServices] = useState([]);
-
-    // useEffect(()=> {
-    //     fetch('https://my-server-site.vercel.app/allcategory')
-    //     .then(res => res.json())
-    //     .then(data=> {
-            
-    //         setServices(data)
-    //     })
-    // } ,[])
+    
     const {title,image,Description,price} = service[0];
     return (
         <div>
