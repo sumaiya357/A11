@@ -26,7 +26,7 @@ const auth = getAuth(app);
         return signInWithPopup(auth, provider);
     }
     const logout =() => {
-       
+        
         return signOut(auth);
      }
 
