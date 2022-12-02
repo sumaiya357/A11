@@ -5,7 +5,6 @@ project name: Timber
 # service of each pacakage are given
 # client can also give their oen review
 # a person cant enter the revie site untin they login
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
