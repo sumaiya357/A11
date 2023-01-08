@@ -38,7 +38,41 @@
       "image":"https://images.squarespace-cdn.com/content/v1/5c2db4029772aebeba129860/1634110711556-ZLG2X9YJV03QONN1G86R/2cc9a9934f2f5db6a847e32d52b58d54-medium.jpg",
       "Description": "This package has Pre Wedding shoot Engagement Wedding Walima. There will be 1 Senioe Photographer & 1 Senioe Cinematographer.The duration is 5Hours per event",
       "price":"35,000 BDT"
+    },
+    {
+      "name":"Amy",
+     "email":"amy@gmail.com",
+     "rate": "5",
+     "comment":"Wonderful",
+     "img":"https://media.istockphoto.com/id/1045886560/photo/portrait-of-smiling-handsome-man-in-blue-t-shirt-standing-with-crossed-arms-isolated-on-grey.jpg?s=612x612&w=0&k=20&c=TX1-1UJ3PKonFEmgs_WDZf7wtfqKVMHYjeRaYjaZ1Rc="
+    }
+    ,
+    {
+     "name":"bob ",
+     "email":"bb@gmail.com",
+     "rate": "4.5",
+     "comment":"Great",
+     "img":"https://media.istockphoto.com/id/1200677760/photo/portrait-of-handsome-smiling-young-man-with-crossed-arms.jpg?s=612x612&w=0&k=20&c=g_ZmKDpK9VEEzWw4vJ6O577ENGLTOcrvYeiLxi8mVuo="
+    }
+  ,
+    {
+      "name":"Robin",
+     "email":"rb@gmail.com",
+     "rate": "4",
+     "comment":"Fantastic",
+     "img":"https://media.istockphoto.com/id/1212710606/photo/young-handsome-man-with-beard-wearing-casual-t-shirt-standing-over-white-background-looking.jpg?s=612x612&w=0&k=20&c=TqO46wTlF5ZA3lFpIfNq2br-ruuKpdZXSegCkHNoqMo="
+    }
+    ,
+    {
+     "name":"Crue",
+     "email":"cr@gmail.com",
+     "rate": "5",
+     "comment":"Wonderful",
+     "img":"https://media.istockphoto.com/id/1025855482/photo/portrait-of-smiling-handsome-man-in-white-t-shirt-standing-with-crossed-arms-isolated-on-gray.jpg?s=612x612&w=0&k=20&c=lk4qmKMABuIQI2hD_KT_dBFuxxlNCXjqynitU0W_79o="
     }
 
     
   ]
+
+
+

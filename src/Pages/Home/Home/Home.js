@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import Category from './Category/Category';
-import Banner from './Banner/Banner';
-import Services from './Services/Services';
+import Category from '../Category/Category';
+import Banner from '../Banner/Banner';
+import Services from '../Services/Services';
 import { Link } from 'react-router-dom';
 
 
@@ -9,7 +9,7 @@ const Home = () => {
     const [category, setCategory] = useState([]);
 
     useEffect(()=> {
-        fetch('http://localhost:5000/allcategory')
+        fetch('https://my-server-site-sumaiya357.vercel.app/category')
         .then(res => res.json())
         .then(data=> {
            console.log(data)
@@ -18,17 +18,17 @@ const Home = () => {
     } ,[])
     return (
         <div>
-          <div className='flex flex-row '>
+          {/* <div className='flex flex-row '>
             <h3 className='font-bold '>All Category</h3>
           {
                 category.map(singleCategory =><Category key={singleCategory.id}
-                category={singleCategory}></Category>)
+                    category={singleCategory}></Category>)
             }
-            <Link ><button className="btn glass text-black">See More</button></Link>
+            <Link to='/allcategory'><button className="btn glass text-black">See More</button></Link>
 
        
            
-          </div>
+          </div> */}
                
             
            
@@ -45,6 +45,9 @@ const Home = () => {
                         
                     </Services>)
             }
+             <div>
+                <Link to='/category'><button className='btn btn-outline btn-primary mb-5'>See All Category</button></Link>
+            </div>
           </div>
 
         </div>

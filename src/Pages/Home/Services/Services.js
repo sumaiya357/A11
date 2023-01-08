@@ -7,17 +7,17 @@ import './Services.css'
 const Services = ({ singleCategory }) => {
     const {image,_id,title, Description ,price} =singleCategory;
     // const {title,desciption,image,price} = category;
-    // const [services, setServices] = useState([0]);
+    const [services, setServices] = useState([0]);
 
-    // useEffect(()=> {
-    //     fetch('http://localhost:5000/allcategory')
-    //     .then(res => res.json())
-    //     .then(data=> {
+    useEffect(()=> {
+        fetch('https://my-server-site-sumaiya357.vercel.app/allcategory')
+        .then(res => res.json())
+        .then(data=> {
 
-    //         setServices(data)
-    //         console.log(data)
-    //     })
-    // } ,[])
+            setServices(data)
+            console.log(data)
+        })
+    } ,[])
 
     return (
         <div className=' mb-10'>

@@ -1,5 +1,7 @@
 import React  from 'react';
 import { useLoaderData } from 'react-router-dom';
+import Review from '../ServiceDetails/Review/Review';
+import ReviewDetails from '../ServiceDetails/ReviewDetails/ReviewDetails';
 
 const SingleService = () => {
     const service = useLoaderData();
@@ -24,6 +26,12 @@ const SingleService = () => {
             
         </div>
         </div>
+
+         <div>
+            <h3 className='text-3xl font-bold mt-20 mb-10'>Plese share your experience with us here</h3>
+            <Review></Review>
+         </div>
+        {/* <ReviewDetails></ReviewDetails> */}
               {/* {
                 services.map(service => 
                     <div className="card card-compact w-96 bg-base-100 shadow-xl">
