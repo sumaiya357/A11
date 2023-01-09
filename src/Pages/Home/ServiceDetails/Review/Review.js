@@ -7,7 +7,7 @@ const Review = () => {
 
     useEffect(()=> {
         // fetch('https://my-server-site-sumaiya357.vercel.app/reviews')
-        fetch('http://localhost:5000/reviews')
+        fetch('https://my-server-site-sumaiya357.vercel.app/reviews')
         .then(res => res.json())
         .then(data=> {
 
